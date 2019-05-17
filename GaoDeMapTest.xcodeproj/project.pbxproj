@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		42FC8D45CC7C07749859CA0F /* Pods_GaoDeMapTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6265921C6686619FEC18FD /* Pods_GaoDeMapTest.framework */; };
+		4AA452BD228E9DA200EA2E60 /* FBShowMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA452BC228E9DA200EA2E60 /* FBShowMapViewController.m */; };
 		4AFDD8DD228E92EA00751854 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFDD8DC228E92EA00751854 /* AppDelegate.m */; };
 		4AFDD8E0228E92EA00751854 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFDD8DF228E92EA00751854 /* ViewController.m */; };
 		4AFDD8E3228E92EA00751854 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AFDD8E1228E92EA00751854 /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4AA452BB228E9DA200EA2E60 /* FBShowMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBShowMapViewController.h; sourceTree = "<group>"; };
+		4AA452BC228E9DA200EA2E60 /* FBShowMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBShowMapViewController.m; sourceTree = "<group>"; };
 		4AFDD8D8228E92EA00751854 /* GaoDeMapTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaoDeMapTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AFDD8DB228E92EA00751854 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4AFDD8DC228E92EA00751854 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -74,6 +77,8 @@
 				4AFDD8E6228E92EB00751854 /* LaunchScreen.storyboard */,
 				4AFDD8E9228E92EB00751854 /* Info.plist */,
 				4AFDD8EA228E92EB00751854 /* main.m */,
+				4AA452BB228E9DA200EA2E60 /* FBShowMapViewController.h */,
+				4AA452BC228E9DA200EA2E60 /* FBShowMapViewController.m */,
 			);
 			path = GaoDeMapTest;
 			sourceTree = "<group>";
@@ -128,6 +133,11 @@
 				TargetAttributes = {
 					4AFDD8D7228E92EA00751854 = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -216,6 +226,7 @@
 			files = (
 				4AFDD8E0228E92EA00751854 /* ViewController.m in Sources */,
 				4AFDD8EB228E92EB00751854 /* main.m in Sources */,
+				4AA452BD228E9DA200EA2E60 /* FBShowMapViewController.m in Sources */,
 				4AFDD8DD228E92EA00751854 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

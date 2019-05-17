@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "FBShowMapViewController.h"
+
 
 @interface ViewController ()
 
@@ -18,6 +20,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
+    
+- (IBAction)showMap:(UIButton *)sender {
+    
+    [self.navigationController pushViewController:[FBShowMapViewController new] animated:YES];
+    
+}
+    
 
 
 @end
