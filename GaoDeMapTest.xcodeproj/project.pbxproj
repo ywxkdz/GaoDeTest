@@ -72,13 +72,13 @@
 				4AFDD8DC228E92EA00751854 /* AppDelegate.m */,
 				4AFDD8DE228E92EA00751854 /* ViewController.h */,
 				4AFDD8DF228E92EA00751854 /* ViewController.m */,
+				4AA452BB228E9DA200EA2E60 /* FBShowMapViewController.h */,
+				4AA452BC228E9DA200EA2E60 /* FBShowMapViewController.m */,
 				4AFDD8E1228E92EA00751854 /* Main.storyboard */,
 				4AFDD8E4228E92EB00751854 /* Assets.xcassets */,
 				4AFDD8E6228E92EB00751854 /* LaunchScreen.storyboard */,
 				4AFDD8E9228E92EB00751854 /* Info.plist */,
 				4AFDD8EA228E92EB00751854 /* main.m */,
-				4AA452BB228E9DA200EA2E60 /* FBShowMapViewController.h */,
-				4AA452BC228E9DA200EA2E60 /* FBShowMapViewController.m */,
 			);
 			path = GaoDeMapTest;
 			sourceTree = "<group>";
@@ -112,6 +112,7 @@
 				4AFDD8D5228E92EA00751854 /* Frameworks */,
 				4AFDD8D6228E92EA00751854 /* Resources */,
 				6F428DC991D290AFB57FDCEF /* [CP] Copy Pods Resources */,
+				C0967F400C194E136FE13714 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +194,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GaoDeMapTest/Pods-GaoDeMapTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0967F400C194E136FE13714 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GaoDeMapTest/Pods-GaoDeMapTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GaoDeMapTest/Pods-GaoDeMapTest-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E0E2DA39B6A003BA6B8DBB91 /* [CP] Check Pods Manifest.lock */ = {

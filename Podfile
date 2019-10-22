@@ -11,4 +11,7 @@ target 'GaoDeMapTest' do
   pod 'AMapSearch'
   pod 'AMapLocation'
 
+  pod 'Masonry'
+  
+  
 end
